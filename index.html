@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TP - Desenvolvimento Web I</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/main.js" async></script>
+</head>
+
+<body>
+    <div class="ex">
+        <h1>Exercício 01</h1>
+        <h2>Disciplina: Linguagens de Programação II</h2>
+        <img src="img/ex01.jpg" alt="Exercício 01">
+        
+        <form action="#" method="get">
+            <div class="input">
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="Informe seu nome" size="16" maxlength="70">
+            </div>
+
+            <div class="input">
+                <label for="altura">Altura:</label>
+                <input type="number" name="altura" id="altura" step="0.01" min="0" max="3">
+            </div>
+
+            <div class="input">
+                <label for="peso">Peso:</label>
+                <input type="number" name="peso" id="peso" step="0.01" min="0" max="250">
+            </div>
+
+            <div class="input">
+                <input type="submit" value="Calcular" formaction="javascript:calcula_imc()">
+            </div>
+        </form>
+        <div id="resultado_ex01"></div>
+        <hr>
+    </div>
+    <br>
+
+    <div class="ex">
+        <h1>Exercício 02</h1>
+        <h2>Disciplina: Desenvolvimento de Algoritmo II</h2>
+        <img src="img/ex02.jpg" alt="Exercício 02">
+
+        <form action="#" method="get">
+            <div class="input">
+                <label for="inicio">Início:</label>
+                <select name="inicio" id="inicio">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                    <option value="5">5</option>
+                    <option value="6">6</option>
+                    <option value="7">7</option>
+                    <option value="8">8</option>
+                    <option value="9">9</option>
+                    <option value="10">10</option>
+                    <option value="11">11</option>
+                    <option value="12">12</option>
+                    <option value="13">13</option>
+                    <option value="14">14</option>
+                    <option value="15">15</option>
+                    <option value="16">16</option>
+                    <option value="17">17</option>
+                    <option value="18">18</option>
+                    <option value="19">19</option>
+                    <option value="20">20</option>
+                </select>
+            </div>
+
+            <div class="input">
+                <label for="fim">Fim:</label>
+                <select name="fim" id="fim">
+                    <option value="-1">-1</option>
+                    <option value="-2">-2</option>
+                    <option value="-3">-3</option>
+                    <option value="-4">-4</option>
+                    <option value="-5">-5</option>
+                    <option value="-6">-6</option>
+                    <option value="-7">-7</option>
+                    <option value="-8">-8</option>
+                    <option value="-9">-9</option>
+                    <option value="-10">-10</option>
+                    <option value="-11">-11</option>
+                    <option value="-12">-12</option>
+                    <option value="-13">-13</option>
+                    <option value="-14">-14</option>
+                    <option value="-15">-15</option>
+                    <option value="-16">-16</option>
+                    <option value="-17">-17</option>
+                    <option value="-18">-18</option>
+                    <option value="-19">-19</option>
+                    <option value="-20">-20</option>
+                </select>
+            </div>
+
+            <div class="input">
+                <input type="submit" value="Exibir" formaction="javascript:contar()">
+            </div>
+        </form>
+        <div id="resultado_ex02"></div>
+        <hr>
+    </div>
+
+    <div class="ex">
+        <h1>Exercício 03</h1>
+        <h2>Disciplina: Desenvolvimento de Algoritmo I</h2>
+        <img src="img/ex03.jpg" alt="Exercício 03">
+
+        <form action="#" method="get">
+            <div class="input">
+                <label for="nome_funcionario">Nome:</label>
+                <input type="text" name="nome_funcionario" id="nome_funcionario" placeholder="Informe seu nome" size="16" maxlength="70">
+            </div>
+
+            <div class="input">
+                <label for="salario">Salário-base: R$</label>
+                <input type="number" name="salario" id="salario" step="0.01" min="0">
+            </div>
+
+            <div class="input">
+                <label for="vendas">Valos das vendas no mês:  R$</label>
+                <input type="number" name="vendas" id="vendas" step="0.01" min="0">
+            </div>
+
+            <div class="input">
+                <input type="submit" value="Calcular" formaction="javascript:calcula_abono()">
+            </div>
+        </form>
+        <div id="resultado_ex03"></div>
+        <hr>
+    </div>
+
+</html>

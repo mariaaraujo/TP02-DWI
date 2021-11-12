@@ -1,0 +1,142 @@
+/*CSS - GERAL*/
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;700&display=swap');
+
+body{
+    font-family: 'Oswald', sans-serif;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background: linear-gradient(40deg, #ffffff, dodgerblue);
+}
+
+img {
+    height: 100%;
+    width: 100%;
+
+}
+
+.ex{
+    margin-top: 50px;
+    margin-bottom: 25px;
+    margin-left: 25%;
+    margin-right: 25%;
+    display: block;
+    padding: 20px 20px;
+    background: #fff;
+    border-radius: 20px;
+}
+
+.ex h1{
+    margin-bottom: 35px;
+    letter-spacing: 3px;
+}
+
+.ex h2{
+    margin-bottom: 25px;
+    margin-top: 25px;
+    letter-spacing: 2px;
+}
+
+.ex label{
+    font-size: 19px;
+    letter-spacing: 1px;
+}
+
+.ex input{
+    font-size: 14px;
+}
+
+.ex .input{
+    display: block;
+    margin: 25px auto;
+}
+
+input[type=text]{ 
+    border-radius: 4px;
+    border: 1px solid #000000;
+    
+}
+
+input[type=number]{ 
+    border-radius: 4px;
+    border: 1px solid #000000;
+}
+
+input[type=text]:hover, input[type=number]:hover{
+    border:2px solid #006699;
+}
+
+select{
+    border-radius: 4px;
+    border: 1px solid #000000;
+}
+
+input[type=submit]{        
+    font-size: 16px;
+    font-weight: bold;
+    background:#006699;        
+    color:#ffffff;
+    border: 1px solid #eee;
+    border-radius: 20px;
+    width: 150px;
+    height: 40px;
+    cursor: pointer;
+}
+
+/*CSS - EX 01*/
+
+#nome{
+    width: 150px;
+    height: 25px;
+}
+
+#altura, #peso{
+    width: 50px;
+    height: 25px;
+}
+
+#resultado_ex01{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(134, 187, 236);
+    line-height: 50px;
+    size: 20px; 
+}
+
+/*CSS - EX 02*/
+
+#inicio, #fim{
+    width: 50px;
+    height: 25px;
+}
+
+#resultado_ex02{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(134, 187, 236);
+    color: #ffffff;
+    line-height: 50px;
+    size: 20px;
+}
+
+/*CSS - EX 03 */
+#nome_funcionario{
+    width: 150px;
+    height: 25px;
+}
+
+#salario, #vendas{
+    width: 70px;
+    height: 25px;
+}
+
+#resultado_ex03{
+    font-size: 20px;
+    font-weight: bold;
+    background-color: rgb(134, 187, 236);
+    color: black;
+    line-height: 50px;
+    size: 20px;
+}
